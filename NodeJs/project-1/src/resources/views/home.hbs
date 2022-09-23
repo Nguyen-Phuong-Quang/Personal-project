@@ -1,0 +1,18 @@
+<div class="mt-4">
+    <div class="row">
+
+        {{#each courses}}
+        <div class="col-sm-6 col-lg-4 mt-2">
+            <div class="card">
+                <img class="card-img-top" src="https://img.youtube.com/vi/{{this.videoId}}/sddefault.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.name}}</h5>
+                    <p class="card-text">{{this.description}}</p>
+                    <a href="/courses/{{this.slug}}" class="btn btn-primary">View detail</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+
+    </div>
+</div>

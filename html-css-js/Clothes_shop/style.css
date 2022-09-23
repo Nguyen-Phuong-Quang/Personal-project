@@ -1,0 +1,582 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.btn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 11px 16px;
+    cursor: pointer;
+ }
+ 
+.btn:hover{
+     background-color: #ccc;
+     color: black;
+ }
+
+/* HEADER */
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    height: 46px;
+    background-color: black;
+    z-index: 1;
+}    
+
+#nav{
+    display: inline-block;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li{
+    position: relative;
+}
+
+#nav > li > a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 30px ;
+    display: block;
+}
+
+#nav .subnav{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    display: none;
+    background-color: white;
+}
+
+#nav .subnav li{
+    padding: 10px 27px;
+    font-size: 14.5px;
+}
+
+#nav li:hover a{
+    background-color: #ccc;
+    color: black;
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+.subnav li:hover {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+
+.subnav i{
+    padding-right: 10px;
+}
+
+.account-option__sign-out,
+.account-option__sign-in,
+#header .mobile-menu-btn,
+#header .header--shopping,
+#header .header--search{
+    line-height: 46px;
+    color: white;
+    padding: 0 21px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+} 
+
+
+#header .mobile-menu-btn{
+    right: 100px;
+    display: none;
+}
+
+#header .header--search{
+    right: 90px;
+}
+
+ #header .header--shopping{
+    right: 150px;
+}  
+
+.account-option__sign-out:hover,
+.account-option__sign-in:hover,
+#header .mobile-menu-btn:hover,
+#header .header--shopping:hover,
+#header .header--search:hover{
+    background-color: red;
+}
+
+#slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 66.67%;
+    width: 100%;
+    background: url(./assets/img/Demo2.jpg) top center /cover no-repeat;
+}
+
+#slider .slider__des{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#content .content-section{
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 74px 16px;
+}
+
+.content-section .section-heading {
+    text-align: center;
+    padding-bottom: 16px;
+    font-weight: 510;
+}
+
+.content-section .section-sub-heading {
+    text-align: center;
+    padding-bottom: 26px;
+    font-style: italic;
+}
+
+.content-section .about-fashion{
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.address-section{
+    background-color: black;
+}
+
+.address-section .section-heading,
+.address-section .section-sub-heading{
+    color: white;
+}
+
+.content-section .place-body{
+    background-color: #fff;
+}
+
+.place-img{
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover{
+    opacity: 0.78;
+}
+
+.place-shop{
+    padding: 8px;
+}
+
+.places-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-body{
+    padding: 15px
+}
+
+.place-body .place-heading{
+    font-size: 15px;
+}
+
+.place-body .place-address{
+    padding:15px 0;
+    font-size: 15px;
+}
+
+
+.contact-content{
+    font-size: 15px;
+    display: flex;
+}
+
+.contact-content .shop-info{
+    width: 50%;
+}
+
+.contact-content .shop-info p{
+    padding: 2px;
+}
+
+.contact-content .shop-info i{
+    width: 20px;
+}
+
+.contact-content .customer-info{
+    width: 50%;
+}
+
+.customer-info .row-1{
+    display: flex; 
+}
+
+.row-1 .name-info{
+    margin-right: 1px;
+    width: 100%;
+}
+
+.row-1 .mail-info{
+    margin-left: 1px;
+    width: 100%;
+}
+
+.customer-info .row-2{
+    margin-top: 4px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+}
+
+#footer{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.socials-list{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.socials-list a{
+    padding: 2px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    display: none;
+}
+
+.modal.open{
+    display: flex;
+}
+
+.modal-container{
+    position: relative;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+    background-color: #fff;
+    animation: comeUp linear 0.5s;
+}
+
+@keyframes comeUp {
+    from{
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+
+.modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 130px;
+    background-color: #009688;
+    color: white;
+}
+
+.modal-close{
+    position: absolute;
+    right: 0;
+    top:0;
+    font-size: 25px;
+    color: white;
+    padding: 6px 10px;
+}
+
+.modal-close:hover{
+    color: rgb(105, 31, 31);
+}
+
+.modal-body{
+    padding: 0 16px;
+}
+
+.modal-label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.modal-input{
+    width: 100%;
+    padding:10px;
+    border: 1px solid #ccc;
+}
+
+#buy-ticket{
+    width: 100%;
+    border: none;
+    background-color: #009688;
+    margin-top: 15px;
+    padding: 16px;
+    cursor: pointer;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+#buy-ticket i{
+    margin-right: 5px;
+}
+
+#buy-ticket:hover{
+    opacity: 0.8;
+}
+
+.modal-help{
+    text-align: right;
+    padding: 15px;
+}
+
+#toast{
+    position: fixed;
+    top: 78px;
+    right: 32px;
+    z-index: 999;  
+}
+
+.toast{
+    display: flex;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    border-left: 4px solid;
+    padding: 12px 0;
+    min-width: 300px;
+    max-width: 350px;
+    animation: comeFromRight linear 0.5s, fadeOut linear 1s 3s forwards;
+}
+
+.toast--success{
+   border-color: rgb(38, 197, 99) ;
+}
+
+.toast--success .toast__icon{
+    color: rgb(38, 197, 99) ;
+}
+
+.toast--error{
+    border-color: rgb(211, 43, 43) ;
+}
+
+.toast--error .toast__icon{
+    color: rgb(211, 43, 43) ;
+}
+
+.toast + .toast{
+    margin-top: 12px;
+}
+
+@keyframes comeFromRight{
+    from{
+        opacity: 0;
+        transform: translateX(calc(100% + 32px));
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    to{
+        opacity: 0;
+    }
+}
+
+.toast__icon{
+    padding: 0 16px;
+    font-size: 20px;
+}
+
+.toast__close{
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.toast__close:hover{
+    opacity: 0.8;
+}
+
+.toast__body{
+    flex: 1;
+}
+
+.sign-in{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./assets/img/Slovakia-train-station-house-trees-clouds-HDR-style_1920x1080.jpg) top center /cover no-repeat;
+}
+
+
+.sign-up__core,
+.sign-in__core{
+    padding: 0 10px;
+    max-width: 100%;
+}
+
+.sign-up__container,
+.sign-in__container{
+    width: 500px;
+    max-width: calc(100% - 32px);
+    min-height: 250px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.sign-up-header,
+.sign-in-header{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sign-in-body{
+    margin: 10px 0;
+}
+
+.sign-up-info,
+.sign-in-info{
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-info label,
+.sign-in-info label{
+    flex: 1;
+    padding-right: 5px;
+}
+
+.sign-up-info input,
+.sign-in-info input{
+    border: none;
+    padding: 8px 0;
+    flex: 20;
+    outline: none;
+    max-width: 100%;
+}
+
+.sign-up-info span,
+.sign-in-info span{
+    padding: 0 8px;
+}
+
+.sign-in-info span:hover{
+    opacity: 0.5;
+}
+
+.sign-up-option{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.create-account{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.create-account:hover{
+    opacity: 0.5;
+}
+
+#sign-up-send,
+#sign-in-send{   
+    width: 100%;
+    padding: 10px 0;
+    background-color: #009688;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+#sign-up-send:hover,
+#sign-in-send:hover{
+    opacity: 0.7;
+}
+
+.dissapear{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

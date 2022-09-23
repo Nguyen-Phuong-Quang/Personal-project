@@ -1,0 +1,170 @@
+{
+    "Ha Noi": {
+        "Thai Nguyen": 74.56,
+        "Vinh Phuc": 61.9,
+        "Ha Nam": 63.7,
+        "Hoa Binh": 69.94,
+        "Bac Giang": 52.51,
+        "Bac Ninh": 31.32,
+        "Hung Yen": 56.2,
+        "Phu Tho": 84.1
+    },
+    "Lao Cai": {
+        "Yen Bai": 154.19,
+        "Ha Giang": 135.49,
+        "Lai Chau": 111.51
+    },
+    "Yen Bai": {
+        "Lao Cai": 154.19,
+        "Tuyen Quang": 45.72,
+        "Ha Giang": 151.89,
+        "Phu Tho": 87.16,
+        "Son La": 130.47,
+        "Lai Chau": 219.69
+    },
+    "Dien Bien": {
+        "Son La": 110.1,
+        "Lai Chau": 92.3
+    },
+    "Hoa Binh": {
+        "Phu Tho": 77.4,
+        "Ha Nam": 79.87,
+        "Ninh Binh": 109.11,
+        "Ha Noi": 69.94,
+        "Son La": 191.22
+    },
+    "Lai Chau": {
+        "Lao Cai": 111.51,
+        "Yen Bai": 219.69,
+        "Dien Bien": 77.55,
+        "Son La": 207
+    },
+    "Son La": {
+        "Yen Bai": 130.47,
+        "Dien Bien": 110.1,
+        "Lai Chau": 207,
+        "Phu Tho": 190.32,
+        "Hoa Binh": 191.22
+    },
+    "Ha Giang": {
+        "Cao Bang": 157.47,
+        "Tuyen Quang": 137.86,
+        "Lao Cai": 135.49,
+        "Yen Bai": 151.89
+    },
+    "Cao Bang": {
+        "Ha Giang": 157.47,
+        "Tuyen Quang": 170.03,
+        "Bac Kan": 72.28,
+        "Lang Son": 126.19
+    },
+    "Bac Kan": {
+        "Lang Son": 121.99,
+        "Tuyen Quang": 98.14,
+        "Thai Nguyen": 87.92,
+        "Cao Bang": 72.28
+    },
+    "Lang Son": {
+        "Cao Bang": 126.19,
+        "Quang Ninh": 125.14,
+        "Bac Giang": 100.44,
+        "Thai Nguyen": 114.78,
+        "Bac Kan": 121.99
+    },
+    "Tuyen Quang": {
+        "Bac Kan": 98.14,
+        "Thai Nguyen": 82.77,
+        "Ha Giang": 137.86,
+        "Cao Bang": 170.03,
+        "Yen Bai": 45.72,
+        "Vinh Phuc": 82.38,
+        "Phu Tho": 73.8
+    },
+    "Thai Nguyen": {
+        "Bac Kan": 87.92,
+        "Vinh Phuc": 47.81,
+        "Tuyen Quang": 82.77,
+        "Lang Son": 114.78,
+        "Bac Giang": 87,
+        "Ha Noi": 74.56
+    },
+    "Phu Tho": {
+        "Tuyen Quang": 73.8,
+        "Yen Bai": 87.16,
+        "Hoa Binh": 77.4,
+        "Ha Noi": 84.1,
+        "Vinh Phuc": 42.1,
+        "Son La": 190.32
+    },
+    "Bac Giang": {
+        "Lang Son": 100.44,
+        "Ha Noi": 52.51,
+        "Thai Nguyen": 87,
+        "Bac Ninh": 21.34,
+        "Hai Duong": 57.2,
+        "Quang Ninh": 117.26
+    },
+    "Quang Ninh": {
+        "Hai Duong": 105,
+        "Hai Phong": 50.4,
+        "Bac Giang": 117.26,
+        "Lang Son": 125.14
+    },
+    "Bac Ninh": {
+        "Bac Giang": 21.34,
+        "Hai Duong": 46.32,
+        "Hung Yen": 70.59,
+        "Ha Noi": 31.32
+    },
+    "Ha Nam": {
+        "Ha Noi": 63.7,
+        "Hung Yen": 23.58,
+        "Thai Binh": 52.87,
+        "Nam Dinh": 35.12,
+        "Ninh Binh": 46.6,
+        "Hoa Binh": 79.87
+    },
+    "Hai Duong": {
+        "Bac Ninh": 46.32,
+        "Bac Giang": 57.2,
+        "Quang Ninh": 105,
+        "Thai Binh": 63.99,
+        "Hung Yen": 48.18,
+        "Hai Phong": 45.88
+    },
+    "Hai Phong": {
+        "Quang Ninh": 50.4,
+        "Hai Duong": 45.88,
+        "Thai Binh": 59.1
+    },
+    "Hung Yen": {
+        "Hai Duong": 48.18,
+        "Ha Noi": 56.2,
+        "Ha Nam": 23.58,
+        "Thai Binh": 56.9,
+        "Bac Ninh": 70.59
+    },
+    "Nam Dinh": {
+        "Thai Binh": 20.84,
+        "Ninh Binh": 31.85,
+        "Ha Nam": 35.12
+    },
+    "Ninh Binh": {
+        "Nam Dinh": 31.85,
+        "Ha Nam": 46.6,
+        "Hoa Binh": 109.11
+    },
+    "Thai Binh": {
+        "Hai Duong": 63.99,
+        "Hung Yen": 56.9,
+        "Hai Phong": 59.1,
+        "Nam Dinh": 20.84,
+        "Ha Nam": 52.87
+    },
+    "Vinh Phuc": {
+        "Tuyen Quang": 82.38,
+        "Thai Nguyen": 47.81,
+        "Phu Tho": 42.1,
+        "Ha Noi": 61.9
+    }
+}

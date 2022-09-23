@@ -1,0 +1,6 @@
+export const SET_TABLE_INPUT = 'set_table_input'
+export const ADD_INFO = 'add_info'
+export const DELETE_INFO = 'delete_info'
+export const EDIT_INFO = 'edit_info'
+export const SET_SEARCH_INPUT = 'set_search_input'
+export const SEARCH_INFO = 'search_info'

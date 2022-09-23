@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- SIGN IN -->
+    <div class="sign-in dissapear">
+        <div class="sign-in__container">
+            <div class="sign-in__core">
+                <div class="sign-in-header">SIGN IN</div>
+                <div class="sign-in-body">
+                    <form id="sign-in-form" action="">
+                        
+                        <div class="sign-in-info"> 
+                            <label for="username"><i class="far fa-user"></i></label>
+                            <input id=username required type="text" placeholder="Username or Email">
+                        </div>
+                        <div class="sign-in-info"> 
+                            <label for="pass-word"><i class="fas fa-key"></i></label>
+                            <input class="passWord" id="pass-word" required type="password" placeholder="Password">    
+                            <span class="show-pass"><i class="fas fa-eye"></i></span>
+                        </div>
+                        <div class="sign-up-option">
+                            Or you don't have account? 
+                            <span class="create-account">Create account</span>
+                        </div>
+                        <input id="sign-in-send" type="submit" value="Sign in">                     
+                    </form>
+                </div>
+            </div>    
+        </div>
+
+        <div class="sign-up__container dissapear" >
+            <div class="sign-up__core">
+                <div class="sign-up-header">SIGN UP</div>
+                <div class="sign-in-body">
+                    <form id="sign-up-form" action="">
+
+                        <div class="sign-up-info">
+                            <label for="new-username"><i class="far fa-user"></i></label>
+                            <input type="text" id="new-username" required placeholder="Username">
+                        </div>
+                        <div class="sign-up-info">
+                            <label for="new-password"><i class="fas fa-key"></i></label>
+                            <input class="passWord" type="password" id="new-password" required placeholder="New password">
+                            <span class="show-pass"><i class="fas fa-eye"></i></span>
+                        </div>
+                        <div class="sign-up-info">
+                            <label for="check-new-password"><i class="fas fa-key"></i></label>
+                            <input class="passWord" type="password" id="check-new-password" required placeholder="Confirm new password">
+                            <span class="show-pass"><i class="fas fa-eye"></i></span>
+                        </div>
+                        <input type="submit" value="Register" id="sign-up-send">
+                    </form>
+                </div>
+            </div>              
+        </div>
+
+        
+    </div>
+
+
+    
+    
+    <!-- MAIN -->
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#clothes">CLOTHES</a></li>
+                <li><a href="#address">ADDRESS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li>
+                    <a href="#">MORE
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul class="subnav" style="list-style-type: none;">
+                        <li><i class="fas fa-mars"></i>For him</li>
+                        <li><i class="fas fa-venus"></i>For her</li>
+                    </ul>   
+                </li>      
+            </ul>
+            <div class="header--search">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="header--shopping">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+
+            <div class="account-option__sign-in">Sign in</div>  
+            <div class="account-option__sign-out dissapear">Sign out</div>
+            
+
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    
+        <div id="slider">
+            <h2 class="slider__des">Your fashion, your choice</h2>
+        </div>
+    
+        <div id="content">
+            <div id="clothes" class="content-section">
+                 <h2 class="section-heading">VINTAGE CLOTHES</h2>
+                 <p class="section-sub-heading">We love fashion</p>
+                 <p class="about-fashion">Fashion style speaks to your personality. You are active or quiet, you are gentle or personality, all expressed through fashion style. I am one of those young people who have a rather special fashion style. I was a pretty naughty kid. I like new things and unique styles. However, the style that I like the most is the sporty style. With this fashion style, I have quite a lot of personality suits. I like to wear a crop top and wide leg pants with a pair of sneakers. I can wear a watch or a briefcase of the same color. With this suit I can work comfortably. At the same time, I can show off my small waist. Fashion is a part of life. We can choose any fashion style we like. Hope you are always beautiful with the style you choose.</p>
+
+                <img src="./assets/img/last1.jpg" alt="" class="pic-of-clothes" style="margin-top: 50px; width: 100%;">
+    
+            </div>
+            
+            <div class="address-section">
+                <div id="address" class="content-section">
+                    <h2 class="section-heading">ADDRESS</h2>
+                    <p class="section-sub-heading">Remember to visit!</p>
+                    <div class="places-list">
+                        <div class="place-shop">
+                            <img src="./assets/img/newyork.jpg" alt="img" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">New York</h3>
+                                <p class="place-address">34 West 37Th street,<br/> New York, NY, 10018,<br/> United States of America</p>
+                                <button class="btn modal-buy-ticket mobile-full-width">Buy tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="place-shop">
+                            <img src="./assets/img/paris.jpg" alt="img" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-address">Milinos by Aeroservo,<br/> 21825 Erwin St. No. 1013,<br/> Woodland Hills, CA 91367</p>
+                                <button class="btn modal-buy-ticket mobile-full-width">Buy tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="place-shop">
+                            <img src="./assets/img/sanfran.jpg" alt="img" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-address">Katze Boutique,<br/>1816 E Sprague<br/>Spokane Wa 99202 </p>
+                                <button class="btn modal-buy-ticket mobile-full-width">Buy tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                 
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">Contact</h2>
+                 <p class="section-sub-heading">Connect with us!</p>
+                 <div class="contact-content">
+                     <div class="shop-info mobile-full-width">
+                         <p><i class="fas fa-map-marker-alt"></i>Hanoi, Vietnam</p>
+                         <p><i class="fas fa-phone"></i>Phone: <a href="tell:0329715851">+98 329715851</a></p>
+                         <p><i class="far fa-envelope"></i>Email: <a href="mailto:quang29112002@gmail.com">quang29112002@gmail.com</a></p>
+                     </div>
+
+                     <div class="customer-info mobile-full-width">
+                         <form action="" name="sendContact">
+                            <div class="row-1">
+                                <div class="name-info">
+                                    <input id="name-contact" type="text" required placeholder="Name" name="" class="form-control"> 
+                                </div>
+       
+                                <div class="mail-info">
+                                   <input id="mail-contact" type="email" required placeholder="Email" name="" class="form-control"> 
+                                </div>
+                             </div>
+    
+                             <div class="message-info row-2">
+                                <input id="message-contact" type="text" required placeholder="Message" name="" class="form-control">    
+                             </div>
+                             
+                             <input class="send-message btn mobile-full-width" type="submit" value="SEND" style ="float: right; margin-top: 8px;">
+                         </div>
+                         </form>
+                 </div>   
+            </div>  
+            
+            <img src="./assets/img/110-1101919_wallpaper-retro-style-girl-in-grass-hat-car.jpg" alt="" style="width: 100%;">
+        </div>
+    
+        <div id="footer">
+              <div class="socials-list">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-pinterest-p"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-youtube"></i></a>
+              </div>
+
+              <p>Powered by <a href="https://www.facebook.com/quang.nguyenphuong.528/">Kwang</a></p>
+        </div>
+    </div>
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal-header">
+                <i class="fas fa-shopping-bag" style="margin-right: 16px;"></i>Tickets
+            </div>
+            <form action="" name="buyTicket">
+                <div class="modal-body">
+                    <label for="quantity" class="modal-label">
+                        <i class="fas fa-shopping-cart"></i>
+                        Tickets, $10000 per person
+                    </label>
+                    <input id="quantity" required type="number" class="modal-input" placeholder="How many?">
+
+                    <label for="mail-to" class="modal-label">
+                        <i class="far fa-user"></i>
+                        Send to
+                    </label>
+                    <input id="mail-to" required type="email" class="modal-input" placeholder="Enter email...">
+
+                    <div id="buy-ticket"><i class="fas fa-check"></i>PAY</div>
+                    
+                    <p class="modal-help">
+                        Need <a href="#">help?</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="toast"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>

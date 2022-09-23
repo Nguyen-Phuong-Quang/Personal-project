@@ -1,0 +1,86 @@
+@media (max-width: 739px) {
+    
+    .mobile-full-width{
+        width: 100%;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .header--shopping,
+    #header .header--search{
+        display: none;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav li{
+        color: white;
+    }
+
+    #nav .subnav li:hover{
+        color: black;
+    }
+
+    #slider .slider__des{
+        font-size: 15px;
+        top: 20px
+    }
+
+    .places-list{
+        display: block;
+    }
+
+    .contact-content{
+        display: block;
+    }
+
+    .contact-content .shop-info,
+    .contact-content .customer-info{
+        width: 100%;
+    }
+    
+    .contact-content .customer-info{
+        margin-top: 15px;
+    }
+
+    .customer-info .row-1{
+        display: block; 
+    }
+
+    .row-1 .name-info,
+    .row-1 .mail-info{
+        margin: 4px 0;;
+        width: 100%;
+    }
+
+    .customer-info .row-2{
+        margin-top: 4px;
+    }
+    
+    .btn{
+        -webkit-appearance: none;
+    }
+
+    
+}
